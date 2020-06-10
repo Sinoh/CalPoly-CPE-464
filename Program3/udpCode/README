@@ -1,0 +1,24 @@
+Jeffery Ho
+CPE-464 Spring 2020
+Lab - 3pm
+
+NOTES:
+
+This asssignment works with all the included tests
+
+However, there are some things things that I was not able to get to/Check
+I was not able to confirm that I implemented the timeouts correctly.
+I was not able to fully refactor my code into neat blocks and functions
+I was not able to confirm that I implemented SREJ the correct way
+
+Also, I do not know what is a reasonable runtime for any given parameters.
+So a little benchmark of my program is:
+
+    5 paragraphs of lorem ipsum on 0.4 error percent on both rcopy and server takes about 15 seconds
+    10 paragraphs of lorem ipsum on 0.4 error percent on both rcopy and server takes about 30 seconds
+
+Once error percent rate is 0.5 or greater, my program takes a while to run.
+This is probably due to my timeout implementation.
+
+Also, for some reason, my rcopy cannot get pass the sending bufferSize state when trying to rcopy a
+second time on the same server.
